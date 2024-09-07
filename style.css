@@ -1,16 +1,18 @@
+html, body {
+    height: 100%;
+    margin: 0;
+}
+
 body {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    align-items: center;
-    min-height: 100vh;
-    margin: 0;
     font-family: Arial, sans-serif;
     background-color: #f0f0f0;
 }
 
 .content {
-    flex-grow: 1;
+    flex: 1; /* Permite que el contenido ocupe el espacio restante */
     display: flex;
     justify-content: center; /* Alinea al centro verticalmente */
     align-items: center; /* Alinea al centro horizontalmente */
